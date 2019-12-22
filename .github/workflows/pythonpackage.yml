@@ -23,3 +23,6 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest
+    - name: Running Application
+      run: |
+        python my_script.py
