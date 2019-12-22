@@ -4,4 +4,4 @@ def test_show():
     assert recieved=="hello world"
 def test_make():
     mask=Strings.make()
-    assert make=="self"
+    assert mask=="self"
