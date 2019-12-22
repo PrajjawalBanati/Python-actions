@@ -1,1 +1,13 @@
+name: 'Unit Testing With Python'
+author: 'PrajjawalBanati'
+description: 'Automated Unit testing of your python code under a given test case'
+inputs:
+  src:
+    description: 'Always push your code and test case file as name.py and test_name.py'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'award'
+  color: 'green'
 
